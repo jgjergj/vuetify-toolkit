@@ -256,6 +256,8 @@ export default commonSelect.extend({
       if (chld) {
         this.$data.currentParentKey = itemKey
         this.$data.currentParents.push(item)
+        const itemToAdd = { text: (this as any).textItem(itemKey), key: itemKey }
+        this.$data.selectedItems = [itemToAdd]
       } else {
         // selected item
         if (!this.$props.multiple) {
