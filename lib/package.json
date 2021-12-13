@@ -1,10 +1,10 @@
 {
   "name": "vuetify-toolkit",
-  "version": "0.4.2",
+  "version": "0.4.12",
   "description": "Vuetify.js Additional components set",
   "author": {
-    "name": "Aleksandr Kolesnikov",
-    "email": "alex.v.kolesnikov72@gmail.com"
+    "name": "Gjergj Jorgji",
+    "email": "gjergj.jorgji@gmail.com"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,7 +17,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.10",
-    "vuetify": "^2.2.0"
+    "vuetify": "^2.2.17"
   },
   "devDependencies": {
     "@mdi/font": "^5.0.45",
@@ -26,9 +26,9 @@
     "@typescript-eslint/parser": "^2.23.0",
     "@vue/cli-plugin-babel": "~4.5.12",
     "@vue/cli-plugin-eslint": "~4.5.12",
-    "@vue/cli-plugin-typescript": "~4.5.12",
-    "@vue/cli-plugin-unit-jest": "~4.5.12",
-    "@vue/cli-service": "~4.5.12",
+    "@vue/cli-plugin-typescript": "~4.5.15",
+    "@vue/cli-plugin-unit-jest": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
     "@vue/eslint-config-standard": "^5.1.2",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "1.0.0-beta.32",
@@ -40,21 +40,21 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.9.0",
+    "node-sass": "^6.0.0",
     "sass": "^1.17.4",
     "sass-loader": "^7.1.0",
-    "ts-jest": "27.0.7",
+    "ts-jest": "^27.0.7",
     "typescript": "~4.1.5",
-    "vue-cli-plugin-vuetify": "~2.3.1",
+    "vue-cli-plugin-vuetify": "~2.4.4",
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.7.2"
    },
   "peerDependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.10",
-    "vuetify": "^2.2.0"
+    "vuetify": "^2.2.17"
   },
-  "homepage": "https://github.com/kolesnikovav/vuetify-toolkit",
+  "homepage": "https://github.com/jgjergj/vuetify-toolkit",
   "keywords": [
     "vuetify",
     "vue",
@@ -71,7 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kolesnikovav/vuetify-toolkit.git"
+    "url": "git+https://github.com/jgjergj/vuetify-toolkit.git"
   },
   "main": "vuetify-toolkit.umd.js",
   "jsdelivr": "vuetify-toolkit.umd.js",
